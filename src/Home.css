@@ -1,0 +1,316 @@
+/* Global Styles */
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('Merriweather/Merriweather-Regular.ttf') format('truetype'),
+       url('Merriweather/Merriweather-Italic.ttf') format('truetype');
+  /* Add additional font formats if available */
+  /* Add other font properties as needed */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Merriweather, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text */
+}
+
+/* Navbar Styles */
+nav {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  background-color: #121212; /* Darker background for navbar */
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* Hover color */
+}
+
+
+/* Centered Header Styles */
+.centered-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.centered-header h1 {
+  font-size: 32px;
+  color: #ffffff; /* Adjust color as needed */
+}
+
+.title h1 {
+	  text-align: center;
+  font-size: 32px;
+  color: #ffffff; /* Adjust color as needed */
+}
+
+.second-header {
+  text-align: center;
+  padding: 20px;
+  font-size: 25.2px;
+  color: #ffffff; /* Adjust color as needed */
+}
+
+
+.icons {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+    margin: 0 40px; /* Adjust the margin to control the distance between icons */
+color: #ffffff;
+}
+
+
+.icon-inner-container {
+	color: #ffffff;
+
+  display: flex;
+  gap: 20px; /* Adjust the gap value to control space between icons */
+}
+
+a {
+    color: white;
+}
+
+/* Landing Page Container */
+.landing-container {
+  display: flex;
+  width: 100%;
+}
+
+
+/* Landing Page Container */
+.landing-container {
+  display: flex;
+  width: 100%;
+  padding-top: 20px; /* Adjust as needed based on your navbar height */
+}
+
+/* Content on the Left */
+.content-left {
+  width: 60%;
+}
+
+/* Summary Section */
+.summary {
+	margin-left: 50px;
+	padding: 40px;
+	text-align: center; /* Center the text horizontally */
+	  line-height: 1.8;
+
+}
+
+.summary h2 {
+  font-size: 24px;
+}
+
+/* Details Section (Work Experience, Projects, etc.) */
+.details {
+  /* Add styling for your details section */
+}
+
+/* Circular Frame for Photograph on the Right */
+.photo-frame {
+  margin-top: 70px;
+  margin-left: 110px;
+  width: 200px; /* Adjust width */
+  height: 200px; /* Adjust height */
+  border: 2px solid #fff;
+  border-radius: 50%; /* Creates a circular frame */
+  overflow: hidden; /* Ensures the image is clipped to the frame */
+}
+
+.photo-frame img {
+  width: 100%; /* Ensures the image fills the frame */
+  height: 100%;
+  object-fit: cover; /* Keeps the image proportions and covers the frame */
+}
+
+.vertical-timeline-element-content {
+	
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+  font-size: 13px;
+
+}
+
+.date {
+  color:  #ffffff;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+	justify-content: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color:  #ffffff ;
+    margin-top: 1.5em;
+  }
+}
+.project-section {
+  display: flex;
+  flex-wrap: wrap; /* Allows boxes to wrap on smaller screens */
+  justify-content: space-between;
+  margin: 20px; /* Shorthand for margin on all sides */
+}
+
+.project-box {
+  flex: 0 1 calc(30% - 20px); /* Each box occupies 30% of the width with margin */
+  margin: 10px; /* Margin around each box */
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #222222;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 15px;
+  border: 2px solid #222222; /* Adjust border styles */
+  color: #fff; /* Text color */
+}
+
+.button {
+  margin: 0 auto;
+  display: block;
+  background-color: #222222;
+  text-align: center;
+  color: #0000FF;
+  font-size: 15px;
+  padding: 8px 16px; /* Adjust padding */
+}
+
+.button:hover {
+  background-color: #000; /* Change color on hover */
+  color: #fff;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .project-box {
+    flex-basis: calc(50% - 20px); /* Two boxes per row on smaller screens */
+  }
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 600px;
+  font-size: 15px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 450px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+  background-color: #333; /* Input background color */
+  color: white; /* Input text color */
+  border: 1px solid #666; /* Input border color */
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+    background-color: #333; /* Input background color */
+
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+ 
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  background-color: #222222;
+  text-align: center;
+  color: #0000FF;
+  font-size: 15px;
+  padding: 8px 16px; /* Adjust padding */
+}
