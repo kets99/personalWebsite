@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personalWebsite/static/css/main.408a6818.css",
-    "main.js": "/personalWebsite/static/js/main.f303dcbf.js",
+    "main.js": "/personalWebsite/static/js/main.76e9d609.js",
     "static/js/787.dc5acfcb.chunk.js": "/personalWebsite/static/js/787.dc5acfcb.chunk.js",
     "static/media/Merriweather-Regular.ttf": "/personalWebsite/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
     "static/media/Merriweather-Italic.ttf": "/personalWebsite/static/media/Merriweather-Italic.c011994c363b810ae1f6.ttf",
@@ -10,11 +10,11 @@
     "index.html": "/personalWebsite/index.html",
     "static/media/school.svg": "/personalWebsite/static/media/school.6785d92a77a11b711dffaa2cdf9c92d9.svg",
     "main.408a6818.css.map": "/personalWebsite/static/css/main.408a6818.css.map",
-    "main.f303dcbf.js.map": "/personalWebsite/static/js/main.f303dcbf.js.map",
+    "main.76e9d609.js.map": "/personalWebsite/static/js/main.76e9d609.js.map",
     "787.dc5acfcb.chunk.js.map": "/personalWebsite/static/js/787.dc5acfcb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.408a6818.css",
-    "static/js/main.f303dcbf.js"
+    "static/js/main.76e9d609.js"
   ]
 }
