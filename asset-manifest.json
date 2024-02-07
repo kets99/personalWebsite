@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kets99.github.io/personalWebsite/static/css/main.9704cfbc.css",
-    "main.js": "/kets99.github.io/personalWebsite/static/js/main.f24d5125.js",
-    "static/js/787.dc5acfcb.chunk.js": "/kets99.github.io/personalWebsite/static/js/787.dc5acfcb.chunk.js",
-    "static/media/Merriweather-Regular.ttf": "/kets99.github.io/personalWebsite/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
-    "static/media/Merriweather-Italic.ttf": "/kets99.github.io/personalWebsite/static/media/Merriweather-Italic.c011994c363b810ae1f6.ttf",
-    "static/media/kets.jpg": "/kets99.github.io/personalWebsite/static/media/kets.26d70d0c1c704b17f1c8.jpg",
-    "static/media/work.svg": "/kets99.github.io/personalWebsite/static/media/work.1790d971eb449ac84c701b2c6d77f0bc.svg",
-    "index.html": "/kets99.github.io/personalWebsite/index.html",
-    "static/media/school.svg": "/kets99.github.io/personalWebsite/static/media/school.6785d92a77a11b711dffaa2cdf9c92d9.svg",
-    "main.9704cfbc.css.map": "/kets99.github.io/personalWebsite/static/css/main.9704cfbc.css.map",
-    "main.f24d5125.js.map": "/kets99.github.io/personalWebsite/static/js/main.f24d5125.js.map",
-    "787.dc5acfcb.chunk.js.map": "/kets99.github.io/personalWebsite/static/js/787.dc5acfcb.chunk.js.map"
+    "main.css": "/personalWebsite/static/css/main.408a6818.css",
+    "main.js": "/personalWebsite/static/js/main.f303dcbf.js",
+    "static/js/787.dc5acfcb.chunk.js": "/personalWebsite/static/js/787.dc5acfcb.chunk.js",
+    "static/media/Merriweather-Regular.ttf": "/personalWebsite/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
+    "static/media/Merriweather-Italic.ttf": "/personalWebsite/static/media/Merriweather-Italic.c011994c363b810ae1f6.ttf",
+    "static/media/kets.jpg": "/personalWebsite/static/media/kets.26d70d0c1c704b17f1c8.jpg",
+    "static/media/work.svg": "/personalWebsite/static/media/work.1790d971eb449ac84c701b2c6d77f0bc.svg",
+    "index.html": "/personalWebsite/index.html",
+    "static/media/school.svg": "/personalWebsite/static/media/school.6785d92a77a11b711dffaa2cdf9c92d9.svg",
+    "main.408a6818.css.map": "/personalWebsite/static/css/main.408a6818.css.map",
+    "main.f303dcbf.js.map": "/personalWebsite/static/js/main.f303dcbf.js.map",
+    "787.dc5acfcb.chunk.js.map": "/personalWebsite/static/js/787.dc5acfcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9704cfbc.css",
-    "static/js/main.f24d5125.js"
+    "static/css/main.408a6818.css",
+    "static/js/main.f303dcbf.js"
   ]
 }
