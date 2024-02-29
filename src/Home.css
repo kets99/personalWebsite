@@ -8,6 +8,46 @@
   /* Add other font properties as needed */
 }
 
+@media only screen and (max-width: 768px) {
+  .centered-header {
+    text-align: center;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-inner-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .landing-container {
+    flex-direction: column;
+  }
+
+  .content-left,
+  .photo-frame {
+    width: 100%;
+  }
+}
+
+/* Original Styles */
+.centered-header {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon-inner-container {
+  display: flex;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -135,7 +175,6 @@ a {
   margin-left: 110px;
   width: 200px; /* Adjust width */
   height: 200px; /* Adjust height */
-  border: 2px solid #fff;
   border-radius: 50%; /* Creates a circular frame */
   overflow: hidden; /* Ensures the image is clipped to the frame */
 }
@@ -152,6 +191,8 @@ a {
     0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
   padding: 2em 3em !important;
   font-size: 13px;
+      border: 3px solid white; /* Adjust border styles */
+
 
 }
 
@@ -169,6 +210,18 @@ a {
   padding: 0.5em 1em;
   border-radius: 5px;
   color: white;
+    border: 2px solid white; /* Adjust border styles */
+
+}
+
+
+.button1 {
+	justify-content: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+
 }
 
 .workButton {
@@ -220,7 +273,7 @@ a {
   display: block;
   background-color: #222222;
   text-align: center;
-  color: #0000FF;
+  color: white;
   font-size: 15px;
   padding: 8px 16px; /* Adjust padding */
 }
@@ -310,7 +363,44 @@ button {
   display: block;
   background-color: #222222;
   text-align: center;
-  color: #0000FF;
+  color: white;
   font-size: 15px;
   padding: 8px 16px; /* Adjust padding */
+}
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap; /* Allows boxes to wrap on smaller screens */
+  justify-content: space-between;
+  margin: 40px; /* Shorthand for margin on all sides */
+}
+
+.project-item {
+  margin: 30px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #222222;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.project-details {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  display: none;
+  box-sizing: border-box; /* Include padding in width and height */
+  font-size: 16px;
+    border: 3px solid #666; /* Input border color */
+
+  color: #fff; /* Text color */
+
+}
+
+.project-item:hover .project-details {
+  display: block;
 }
